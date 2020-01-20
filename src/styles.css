@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap');
+*{margin:0; padding:0; box-sizing:border-box;}
+
+body {background: #17171b; font-family: Poppins, sans-serif;}
+
+.App {
+  max-width: 450px;
+  border-radius: 3px;
+  margin: 150px auto;
+
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+}

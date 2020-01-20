@@ -1,0 +1,40 @@
+.containers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  max-width: 450px;
+  margin-bottom: 20px;
+  background:rgba(0,0,0, 0.5);
+  padding:20px;
+  border-radius: 3px;
+}
+
+.containers h1 {margin-bottom:20px; color:#fff;}
+.containers p {color:#999;}
+.containers span {margin-top: 30px; color:#fff; display: block;}
+
+.actions{
+  width: 100%;
+  margin:0 auto;
+}
+.actions button {
+  width: 45%;
+  background:transparent;
+  color:#17171b;
+  padding: 15px 50px;
+  border:0;
+  background: #ffe600;
+  font-weight: bold;
+  border-radius: 3px;
+  outline: none;
+  margin-top:20px;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+  margin:10px;
+}
+
+.actions button:hover{background:#bba90a;}
+
+
