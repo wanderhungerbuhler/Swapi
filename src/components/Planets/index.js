@@ -10,7 +10,6 @@ class Planets extends Component {
     page: 1,
   }
 
-
   componentDidMount() {
     this.loadPlanets();
   }
@@ -21,8 +20,6 @@ class Planets extends Component {
     const { results, ...planetInfo } = response.data;
 
     this.setState({ planets: results, planetInfo, page });
-
-    // console.log(results);
   }
 
   prevPage = () => {
@@ -48,8 +45,6 @@ class Planets extends Component {
   render() {
 
     const { planets, planetInfo, page } = this.state;
-
-    console.log(planetInfo);
 
     return (
       <>
