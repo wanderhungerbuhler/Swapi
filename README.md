@@ -12,6 +12,6 @@ onde essa listagem mostra algumas informações como: população, terras e algu
 
 ## 🔖 Layout
 Tentei seguir o máximo de originalidade possível. Peguei algumas imagens de planetas e coloquei um fundo estrelado,
-justamente para dar aquele aspecto de estar no espaço. Sem contar com os efeitos e cores dos botões, lembrando a cor da logo do STAR WARS
+justamente para dar aquele aspecto de estar no espaço. Sem contar com os efeitos e cores dos botões, lembrando a cor da logo do STAR WARS.
 
 Feito com ♥ by Wander Hungerbühler :wave:
