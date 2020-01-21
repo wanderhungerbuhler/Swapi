@@ -16,12 +16,13 @@ class Planets extends Component {
   }
 
   loadPlanets = async (page = 1) => {
-    const response = await api.get(`/planets/?page=${page}`);
+    const response = await api.get(`/planets/${page}/`);
 
     const { results, ...planetInfo } = response.data;
 
     this.setState({ planets: results, planetInfo, page });
 
+    // console.log(results);
   }
 
   prevPage = () => {
@@ -48,20 +49,21 @@ class Planets extends Component {
 
     const { planets, planetInfo, page } = this.state;
 
+    console.log(planetInfo);
+
     return (
       <>
       <div className="infos-planets">
 
-        { planets.map(planet => (
-          <article key={planet.id} className="containers">
-            <h1>{planet.name}</h1>
-            <p>Population: {planet.population}</p>
-            <p>Climate: {planet.climate}</p>
-            <p>Terrain: {planet.terrain}</p>
+        <article className="containers">
+          <img src="https://gamepedia.cursecdn.com/swtor_gamepedia/thumb/5/5f/Alderaan.png/250px-Alderaan.png?version=212b94e32a197e3d4ca282c50c0b65b7" alt=""/>
+          <h1>{planetInfo.name}</h1>
+          <p>Population: {planetInfo.population}</p>
+          <p>Climate: {planetInfo.climate}</p>
+          <p>Terrain: {planetInfo.terrain}</p>
 
-            <span>Featured in <b>{planet.films.length}</b> Films</span>
-          </article>
-        ))}
+          {/* <span>Featured in <b>{planetInfo.films}</b> Films</span> */}
+        </article>
 
       </div>
 
