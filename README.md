@@ -1,9 +1,41 @@
+<h1 align="center">
+  🚀 SWAPI (Star Wars API)
+</h1>
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/wanderhungerbuhler/swapi">
+
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/wanderhungerbuhler/swapi">
+
+  <a href="https://github.com/wanderhungerbuhler/swapi/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/wanderhungerbuhler/swapi">
+  </a>
+
+  <a href="https://github.com/wanderhungerbuhler/swapi/issues">
+    <img alt="Repository issues" src="https://img.shields.io/github/issues/wanderhungerbuhler/swapi">
+  </a>
+
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
+</p>
+
+<p align="center">
+  <a href="#rocket-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
+
+<br>
+
+<p align="center">
+  <img alt="Frontend" src=".github/swapi.png" width="100%">
+</p>
+
 # Swapi
 Desafio Técnico: Dev. Front-End.
 
 ## :rocket: Tecnologias:
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [ReactJS](https://reactjs.org)
+- [Swapi.co](https://swapi.co/api/)
 
 ## 💻 Projeto
 
