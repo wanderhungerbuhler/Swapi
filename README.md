@@ -32,9 +32,10 @@
 # Swapi
 Desafio Técnico: Dev. Front-End.
 
-## :rocket: Tecnologias:
+## :rocket: Tecnologias
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [ReactJS](https://reactjs.org)
+- [Axios](https://github.com/axios/axios)
 - [Swapi.co](https://swapi.co/api/)
 
 ## 💻 Projeto
